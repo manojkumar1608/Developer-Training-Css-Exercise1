@@ -1,0 +1,73 @@
+#wrapper {
+width: 100%;
+background-color: black;
+font-family: "Edu VIC WA NT Beginner", cursive;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+}
+#mypage-header{
+position: sticky;
+top:0;
+display: flex;
+justify-content: center;
+background-color: #365E32;
+border-radius: 5px;
+color:#F7F9F2;
+font-size: 32px;
+font-weight: bold;
+}
+.content-section{
+background-color: #EEEDEB;
+display: flex;
+flex-direction: row;
+align-items:center;
+padding: 6px;
+}
+#mypage-leftnav{
+width:20%;
+color: #81A263;
+margin-left:16px;
+word-wrap: break-word; 
+font-weight: bold;
+font-size:18px;
+}
+#mypage-centercontent{
+width: 70%;
+margin:6px;
+font-size: 16px;
+padding-left: 16px;
+flex-grow: 1;
+border-left: 2px solid #365E32;
+}
+#mypage-footer{
+display: flex;
+align-items: center;
+flex-direction: column;
+background-color: #365E32;
+padding: 12px;
+color:#F7F9F2;
+border-radius: 3px;
+font-size: 28px;
+font-weight: bold;
+}
+#contact-info{
+font-size: 16px;
+color: #F7F9F2
+}
+
+@media only screen and (max-width: 768px) {
+    #mypage-centercontent,#contact-info{
+        margin:0;
+        font-size:12px;
+    }
+    #mypage-leftnav{
+        width:27%;
+        max-width:25%;
+        margin:2px;
+        font-size: 13px;
+    }
+     #mypage-header,#mypage-footer{
+        font-size: 18px;
+    }
+}
