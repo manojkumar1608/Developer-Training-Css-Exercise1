@@ -1,6 +1,5 @@
 #wrapper {
 width: 100%;
-background-color: black;
 font-family: "Rowdies", system-ui;
 font-weight: 400;
 font-style: normal;
@@ -41,7 +40,6 @@ width: 70%;
 margin:6px;
 font-size: 16px;
 padding-left: 16px;
-flex-grow: 1;
 border-left: 2px solid #365E32;
 }
 #mypage-footer{
